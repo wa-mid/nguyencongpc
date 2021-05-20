@@ -334,6 +334,9 @@ ul li{
     margin-bottom:5px;
     margin-left: 10px;
 }
+.post-block-2 h4{
+    margin-bottom: 0;
+}
 .block-content .item .post-sapo{
     clear: both;
     color:#333;

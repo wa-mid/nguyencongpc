@@ -268,9 +268,9 @@ unset($list_tin_moi_nhat[0]);
                                 </a>
                             </div>
                             @endif
-                            <div class="rank">
+                            <!-- <div class="rank">
                                 <span>0<?php echo $j ?></span>
-                            </div>
+                            </div> -->
                             <div class="post-info">
 
                                 <a href="{{$item->getDetailLink()}}" title="{{$item->title}}">

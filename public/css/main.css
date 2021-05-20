@@ -1711,7 +1711,7 @@ h1.product-name{
     color:#5488ef;
 }
 .product-filter #main-menu{
-    max-height: 40px;
+    max-height: 30px;
     overflow: hidden;
     float:left;
 }
