@@ -306,13 +306,12 @@ ul li{
     display: flow-root;
 }
 .block-title{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
 }
 .block-title:after{
     content: "";
-    width: 0;
-    height: 5px;
+    width: 30px;
+    height: 2px;
     background: #007bff;
     display: block;
     position: relative;
