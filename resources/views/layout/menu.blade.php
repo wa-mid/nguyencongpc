@@ -1,4 +1,4 @@
-<div id="main-menu" class="left left-content {{(Request::path() == "/" || Request::path() == "xay-dung-cau-hinh") ? 'menu-home open' : 'menu-home open' }}">
+<div id="main-menu" class="left left-content {{(Request::path() == "/" || Request::path() == "xay-dung-cau-hinh") ? 'menu-home open' : 'menu-cate' }}">
     <div class="head for-pc">
         <i class="fa fa-bars"></i>
         <span>Danh mục sản phẩm</span>
@@ -10,6 +10,7 @@
     </div>
     <ul>
         @foreach(Helper::getProductCategories() as $rootItem)
+            @if($rootItem['is_menu'] == 1)
             <li class="menu-item">
                 <a href="{{route('detail_page', $rootItem['slug'])}}">
                     <i class="icon icon-{{$rootItem['slug']}}"></i>
@@ -71,6 +72,7 @@
                     </div>
                 @endif
             </li>
+            @endif
         @endforeach
         <li>
             <a href="/tin-tuc">
