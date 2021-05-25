@@ -1,4 +1,4 @@
-<div id="main-menu" class="left left-content {{(Request::path() == "/" || Request::path() == "xay-dung-cau-hinh") ? 'menu-home open' : 'menu-cate' }}">
+<div id="main-menu" class="left left-content {{(Request::path() == "/" || Request::path() == "xay-dung-cau-hinh/*") ? 'menu-home open' : 'menu-cate' }}">
     <div class="head for-pc">
         <i class="fa fa-bars"></i>
         <span>Danh mục sản phẩm</span>
@@ -17,9 +17,9 @@
                     <span>{{$rootItem['name']}}</span>
                 </a>
                 @if(!empty($rootItem['child']))
-                <div class="only-mobile expand-menu">
-                    <i class="fa fa-angle-down"></i>
-                </div>
+                    <div class="only-mobile expand-menu">
+                        <i class="fa fa-angle-down"></i>
+                    </div>
                     <div class="submenu lv1">
                         <div class="head for-pc">
                             <p>{{$rootItem['name']}}</p>
