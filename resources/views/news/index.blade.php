@@ -264,24 +264,24 @@ unset($list_tin_moi_nhat[0]);
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="post-block-4">
-                        <div class="block-heading">
-                            <h3 class="block-title left"><span>TIN <strong>NỔI BẬT</strong></span></h3>
-                        </div>
-                        <div class="block-content">
-                            @foreach($list_tin_tuc_noi_bat as $j => $item)
-                            <div class="item">
-                                @if($j == 0)
-                                    <div class="thumbnail">
-                                        <a href="{{$item->getDetailLink()}}" title="{{$item->title}}">
-                                            <img alt="{{$item->title}}" src="{{$item->getImage(350,196)}}">
-                                        </a>
-                                    </div>
-                                @endif
-                                    <div class="rank">
-                                        <span>0<?php echo $j?></span>
-                                    </div>
-                                    <div class="post-info">
+                <div class="post-block-4">
+                    <div class="block-heading">
+                        <h3 class="block-title left"><span>TIN NỔI BẬT</span></h3>
+                    </div>
+                    <div class="block-content">
+                        @foreach($list_tin_tuc_noi_bat as $j => $item)
+                        <div class="item">
+                            @if($j == 0)
+                            <div class="thumbnail">
+                                <a href="{{$item->getDetailLink()}}" title="{{$item->title}}">
+                                    <img alt="{{$item->title}}" src="{{$item->getImage(350,196)}}">
+                                </a>
+                            </div>
+                            @endif
+                            <!-- <div class="rank">
+                                <span>0<?php echo $j ?></span>
+                            </div> -->
+                            <div class="post-info">
 
                                     <a href="{{$item->getDetailLink()}}" title="{{$item->title}}">
                                         <p class="post-title">
