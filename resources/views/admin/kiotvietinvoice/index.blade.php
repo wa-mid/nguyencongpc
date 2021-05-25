@@ -16,7 +16,7 @@
             <div class="box">
                 <div class="box-body">
                     <div class="row">
-                        <form method='get' id="form-filter" action='{{Request::url()}}'>
+                        <form method='get' id="form-filter" action='{{route("admin.kiotviet.index")}}'>
                             <div class="col-md-3">
                                 <div class="input-group">
                                     <div class="input-group-addon">

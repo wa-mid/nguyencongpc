@@ -13,7 +13,7 @@
             <div class="box">
                 <div class="box-body">
                     <div class="row">
-                        <form method='get' id="form-filter-button" action='{{Request::url()}}'>
+                        <form method='get' id="form-filter-button" action='{{route("admin.orders.index")}}'>
                             <div class="col-md-4">
                                 <div class="input-group">
                                     <div class="input-group-addon">
