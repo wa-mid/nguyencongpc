@@ -17,6 +17,7 @@ img{
 p,ul,li,h1,h2,h3,ol,form{
     margin:0;
     padding:0;
+    font-family: 'Roboto', sans-serif;
 }
 .left{
     float:left;
@@ -332,6 +333,9 @@ ul li{
     float:right;
     margin-bottom:5px;
     margin-left: 10px;
+}
+.post-block-2 h4{
+    margin-bottom: 0;
 }
 .block-content .item .post-sapo{
     clear: both;
