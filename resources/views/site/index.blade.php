@@ -34,23 +34,10 @@
                 </div>
             </div>
             <div class="left left-video  for-pc">
-                <div class="item-banner">
-                    <a href="/chinh-sach-van-chuyen/"><img alt="Giao hàng toàn quốc" src="/photos2/shares/banner/vận-chuyển-máy-tính-toàn-quốc.jpg" style="width: 100%;" /></a>
-                </div>
-                <div class="item-banner" style="margin:10px 0">
-                    <a href="/chinh-sach-bao-hanh/"><img alt="bảo hành siêu tốc" src="/photos2/shares/banner/bảo-hành-máy-tính-siêu-tốc.jpg" style="width: 100%;" /></a>
-                </div>
+                 {!! Helper::getOption('video_index') !!}
             </div>
             <div class="left for-pc banner-advertise">
-                <div class="item-advertise">
-                    <a href="/cach-thanh-toan-tra-gop-qua-the-tin-dung-nguyen-cong-pc/"><img alt="Vận chuyển hàng toàn quốc" src="/photos2/shares/banner/hỗ-trợ-trả-góp.jpg" style="width: 100%;" /></a>
-                </div>
-                <div class="item-advertise">
-                    <a href="#"><img alt="miễn phí vệ sinh bảo dưỡng máy tính" src="/photos2/shares/banner/miễn-phí-vệ-sinh-bảo-dưỡng-máy-tính.jpg" style="width: 100%;" /></a>
-                </div>
-                <div class="item-advertise">
-                    <a href="/laptop"><img alt="tư vấn laptop" src="/photos2/shares/banner/tu-vấn-laptop-chuyên-nghiệp.jpg" style="width: 100%;" /></a>
-                </div>
+                {!! Helper::getOption('banner_advertise') !!}
             </div>
         </div>
         <div class="only-mobile quicklink clearfix">

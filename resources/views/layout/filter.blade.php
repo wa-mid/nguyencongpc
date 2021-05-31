@@ -57,11 +57,13 @@
                     filters[category].push($(this).data('filter'));
                 }
             });
+       
             var url = $("#boxFilter").data('url');
             if(filters) {
                 url += '?'+serialize(filters);
             }
-            window.location = url;
+            url += "&sort=" + $('#sort-select option:selected').val();
+            window.location = url ;
         }
         $(document).ready(function () {
             $(".block-filter .head").click(function(){

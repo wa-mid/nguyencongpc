@@ -20,6 +20,7 @@
             background: #007bff21;
             padding: 10px;
             margin-bottom: 10px;
+            overflow: hidden;
         }
         #boxFilterPC .box-list h4 {
             background: #0069ff40;
@@ -60,6 +61,10 @@
             float: right;
             margin: 0 !important;
             line-height: 15px;
+        }
+        .box-list .price {
+            width: 50%;
+            float: left;
         }
         @media (min-width: 1024px){
             .active-filter .left-content-cate.fixtop {
@@ -274,23 +279,23 @@
     <script>
         $(document).ready(function(){
             /*--Fix top menu--*/
-            $(window).scroll(function (event) {
-                var scroll = $(window).scrollTop();
-                if ($(".right-content").height() > 500) {
-                    if(scroll > 500){
-                        $("#main-menu").removeClass("open");
-                        $(".active-left-content").addClass('fixtop');
-                        $(".left-content-cate").addClass('fixtop');
+            // $(window).scroll(function (event) {
+            //     var scroll = $(window).scrollTop();
+            //     if ($(".right-content").height() > 500) {
+            //         if(scroll > 500){
+            //             $("#main-menu").removeClass("open");
+            //             $(".active-left-content").addClass('fixtop');
+            //             $(".left-content-cate").addClass('fixtop');
 
-                    }else{
-                        // $(".active-left-content").removeClass('fixtop');
-                        $(".left-content-cate").removeClass('fixtop');
-                        $(".filter-content").removeClass("hidden");
-                    }
-                }
+            //         }else{
+            //             // $(".active-left-content").removeClass('fixtop');
+            //             $(".left-content-cate").removeClass('fixtop');
+            //             $(".filter-content").removeClass("hidden");
+            //         }
+            //     }
 
 
-            });
+            // });
             $("#main-menu.menu-cate .head.for-pc").click(function () {
                 var $menu_home = $("#main-menu");
                 var scroll = $(window).scrollTop();
@@ -310,13 +315,13 @@
                 }else{
                     $parent.addClass("hidden");
                 }
-                if ($parent.height() > 350 ) {
-                    $(".filter-content").css({"height":"350px","overflow-y":"scroll", "margin-bottom": "20px"})
-                    console.log(1);
-                }
-                else {
-                   console.log(2);
-                }
+                // if ($parent.height() > 350 ) {
+                //     $(".filter-content").css({"height":"350px","overflow-y":"scroll", "margin-bottom": "20px"})
+                //     console.log(1);
+                // }
+                // else {
+                //    console.log(2);
+                // }
             });
 
              $("#search-filters").click(function(e){

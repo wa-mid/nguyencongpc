@@ -22,7 +22,7 @@
         <meta property="og:image" content="{{asset($page_image)}}" />
         <meta property="og:image:secure_url" content="{{asset($page_image)}}" />
     @endif
-
+    <meta name="facebook-domain-verification" content="xgu74knj7vcmn7suw1keji1bvalkn7" />
     <meta property="fb:app_id" content="444804666164940">
     <meta name="title" content="{{isset($page_title) ? $page_title : 'Mua máy tính đồ họa chuyên nghiệp, laptop gaming, PC workstation đến Nguyễn Công | nguyencongpc.vn'}}">
     <meta name="description" content="{{isset($page_description) ? $page_description : 'Mua máy tính đồ họa, laptop gaming, PC workstation, linh kiện máy tính, card đồ họa cấu hình cao tại Nguyễn Công với hàng ngàn sản phẩm, giá rẻ và siêu khuyến mãi...'}}">
@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/space.css" />
-    <link rel="stylesheet" type="text/css" href="/css/main.css?v=5.30" />
-    <link rel="stylesheet" type="text/css" href="/css/responsive.css?v=5.32" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css?v=5.37" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css?v=5.5" />
     <link rel="stylesheet" type="text/css" href="/css/jquery.toast.min.css" />
     <link rel="stylesheet" href="/css/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/owlcarousel/dist/assets/owl.theme.default.min.css">

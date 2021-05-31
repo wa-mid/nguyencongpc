@@ -265,11 +265,11 @@
                     if(scroll > 500){
                         $("#main-menu").removeClass("open");
                         $(".active-left-content").addClass('fixtop');
-                        $(".left-content-cate").addClass('fixtop');
+                        $("#main-menu").addClass('fixtop');
 
                     }else{
                         $(".active-left-content").removeClass('fixtop');
-                        $(".left-content-cate").removeClass('fixtop');
+                        $("#main-menu").removeClass('fixtop');
                         $(".filter-content").removeClass("hidden");
                     }
                 }
@@ -290,9 +290,9 @@
 
             });
 
-            $(".filter-content").mouseover(function() {
-                $(this).css({"overflow-y": "scroll", "height": "500px"});
-            });
+            // $(".filter-content").mouseover(function() {
+            //     $(this).css({"overflow-y": "scroll", "height": "500px"});
+            // });
             // $("#boxFilter").mouseout(function() {
             //     $(this).removeAttr( 'style' );
             // });
