@@ -121,7 +121,7 @@ unset($list_tin_moi_nhat[0]);
                 <div class="special-news">
                     <a href="{{$first->getDetailLink()}}" title="{{$first->title}}">
                         <div class="thumbnail">
-                            <img alt="{{$first->title}}" src="{{$first->getImage(900,506)}}">
+                            <img alt="{{$first->title}}" src="{{$first->getImage(900,504)}}">
                         </div>
                     </a>
                     <div class="post-content">
