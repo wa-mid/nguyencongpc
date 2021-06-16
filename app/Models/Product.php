@@ -35,7 +35,7 @@ class Product extends Model
         return $this->attribute & $att;
     }
     public static function getQuery($order = true) {
-        return $order ? Product::where('is_delete', 0)->orderByDesc('published_at') : Product::where('is_delete', 0);
+        return $order ? Product::where('is_delete', 0)->where('status','!=', 0 )->orderByDesc('published_at') : Product::where('is_delete', 0)->where('status','!=', 0 );
     }
     static public function findById($id) {
         $cacheKey = 'ncpc_product_id_'.$id;
@@ -51,7 +51,7 @@ class Product extends Model
         $item = Cache::get($cacheKey);
 		
         if($item == null) {
-            $item = Product::getQuery()->where('slug', $uri)->first();
+            $item = Product::where('is_delete', 0)->where('slug', $uri)->first();
             Cache::put($cacheKey, $item, 600);
         }
         return $item;
