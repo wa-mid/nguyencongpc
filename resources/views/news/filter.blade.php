@@ -108,7 +108,7 @@
                     <div class="col-md-4">
                         <div class="post-block-2">
                             <div class="block-heading">
-                                <h2 class="block-title"><span>CÓ THỂ BẠN <strong>SẼ THÍCH</strong></span></h2>
+                                <h2 class="block-title"><span>CÓ THỂ BẠN SẼ THÍCH</span></h2>
                             </div>
                             <div class="block-content">
                                 <?php foreach($posts as $item){?>

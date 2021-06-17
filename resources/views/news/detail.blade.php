@@ -62,7 +62,7 @@
                 <div class="col-md-4">
                     <div class="post-block-6">
                         <div class="block-heading">
-                            <h3 class="block-title left"><span>Bài viết <strong>liên quan</strong></span></h3>
+                            <h3 class="block-title left"><span>Bài viết liên quan</span></h3>
                         </div>
                         <div class="block-content">
 
@@ -96,7 +96,7 @@
 
                     <div class="post-block-7">
                         <div class="block-heading">
-                            <h3 class="block-title left"><span>Sản phẩm <strong>HOT</strong></span></h3>
+                            <h3 class="block-title left"><span>Sản phẩm HOT</span></h3>
                         </div>
 
                         <div class="block-content">
