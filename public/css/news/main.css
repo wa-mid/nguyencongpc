@@ -308,6 +308,7 @@ ul li{
 }
 .block-title{
     font-size: 20px;
+    font-weight: bold;
 }
 .block-title:after{
     content: "";
