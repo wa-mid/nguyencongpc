@@ -86,7 +86,7 @@
                     <a href="/san-pham-khuyen-mai" class="view-all">Xem tất cả <i class="fa fa-angle-double-right"></i></a>
                 </div>
                 <div class="box-slide">
-                    <div class="list-product slide-on-mobile" id="slide_salemb">
+                    <div class="list-product slide-on-mobile pc-gaming-product" id="slide_salemb">
                         @foreach($promotionProducts as $item)
                         <div class="product-item" data-id="{{$item->id}}">
                             <a href="{{$item->getDetailLink()}}">
