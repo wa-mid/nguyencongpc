@@ -1132,7 +1132,7 @@ ul li{
 }
 .main-product .list-product{
     margin-bottom:30px;
-    overflow: hidden;
+    overflow: unset;
 }
 .main-product .head ul {
     border-left-color:#105c9b;
@@ -1152,10 +1152,7 @@ ul li{
     margin-top:20px;
 }
 /*-------------------- Filter--------------------*/
-#main-menu.menu-cate > ul > li > a{
-    text-transform: none;
-    line-height: 17px;
-}
+
  @media (min-width: 1024px){
     .product-category.active-filter .main-content .left-content-cate{
         width: 270px;
@@ -2272,7 +2269,7 @@ h1.product-name{
     position: absolute;
     right: 0;
     background: #fff;
-    padding: 0 5px;
+    padding: 5px 10px;
 }
 
 .block-filter-cate ul.filter-search li .body .flexed {
@@ -2345,11 +2342,7 @@ ul.more-menu > li .row .flexed {
 #main-menu > .head {
     padding: 5px 20px !important;
 }
-#main-menu > ul > li > a{
-    padding: 4.5px 20px !important;
-    border: none;
-    background: unset;
-}
+
 #main-menu > ul > li > a .icon {
     float: unset;
 }
@@ -2390,7 +2383,7 @@ ul.more-menu > li .row .flexed {
     box-shadow: none;
 }
 #product-sale .box-slide {
-    margin: 35px 0 0 0;
+    margin: 25px 0 10px 0;
     padding: 0 15px 60px 15px;
 }
 #product-sale .owl-dots {
@@ -2416,12 +2409,6 @@ ul.more-menu > li .row .flexed {
 }
 #product-sale .product-item .text {
     background: unset;
-}
-
-.item-banner a, .item-advertise a {
-    border-radius: 10px;
-    overflow: hidden;
-    display: block;
 }
 
 .news-special{
