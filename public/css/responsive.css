@@ -1117,3 +1117,17 @@
         max-width: 1000px;
     }
 }
+
+@media (max-width: 576px) {
+    .main-product .list-product {
+        overflow: unset;
+    }
+    .owl-carousel .owl-stage-outer {
+        overflow: unset;
+    }
+}
+@media (min-width: 576px) {
+    .owl-carousel .owl-stage-outer {
+        overflow: hidden;
+    }
+}
