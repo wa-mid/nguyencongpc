@@ -31,7 +31,6 @@
         position: fixed;
         top:72px;
         z-index: 10;
-        max-height: 40px;
         line-height: 30px;
     }
     #main-menu > ul > li:hover .submenu.lv1 {

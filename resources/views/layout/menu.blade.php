@@ -1,5 +1,5 @@
 
-<div id="main-menu" class="left left-content {{(Request::path() == "/" || Request::path() == "xay-dung-cau-hinh/*") ? 'menu-home open' : 'menu-cate' }}">
+<div id="main-menu" class="left left-content {{(Request::path() == "/" || Request::path() == "xay-dung-cau-hinh" || dirname(Request::path()) == "xay-dung-cau-hinh") ? 'menu-home open' : 'menu-cate' }}">
     <div class="head for-pc">
         <i class="fa fa-bars"></i>
         <span>Danh mục sản phẩm</span>

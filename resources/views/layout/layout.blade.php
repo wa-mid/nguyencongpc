@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="/css/fontawesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/space.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css?v=5.37" />
-    <link rel="stylesheet" type="text/css" href="/css/responsive.css?v=5.5" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css?v=5.6" />
     <link rel="stylesheet" type="text/css" href="/css/jquery.toast.min.css" />
     <link rel="stylesheet" href="/css/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/owlcarousel/dist/assets/owl.theme.default.min.css">
