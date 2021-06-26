@@ -1132,7 +1132,7 @@ ul li{
 }
 .main-product .list-product{
     margin-bottom:30px;
-    overflow: hidden;
+    overflow: unset;
 }
 .main-product .head ul {
     border-left-color:#105c9b;
@@ -2383,7 +2383,7 @@ ul.more-menu > li .row .flexed {
     box-shadow: none;
 }
 #product-sale .box-slide {
-    margin: 35px 0 0 0;
+    margin: 25px 0 10px 0;
     padding: 0 15px 60px 15px;
 }
 #product-sale .owl-dots {

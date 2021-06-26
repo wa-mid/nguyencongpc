@@ -312,7 +312,7 @@ ul li{
 }
 .block-title:after{
     content: "";
-    width: 30px;
+    width: 0;
     height: 2px;
     background: #007bff;
     display: block;

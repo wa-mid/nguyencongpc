@@ -57,11 +57,11 @@
                 </div>
                 <div class="column column-50" style="width: 50%;">
                     @if(Request::is('/'))
-                        <h1 style="font-size: 14px;color: #fff;width: 340px;line-height: 2;">PC, WORKSTATION - CPU – BỘ VI XỬ LÝ – MAINBROAD – BO MẠCH CHỦ – VGA – CARD MÀN HÌNH – CASE – VỎ MÁY TÍNH – MONITOR – MÀN HÌNH – PSU
+                        <h1 style="font-size: 14px;color: #fff;width: 400px;line-height: 2;text-align: justify;">PC, WORKSTATION - CPU – BỘ VI XỬ LÝ – MAINBROAD – BO MẠCH CHỦ – VGA – CARD MÀN HÌNH – CASE – VỎ MÁY TÍNH – MONITOR – MÀN HÌNH – PSU
                             NGUỒN MÁY TÍNH – RAM Ổ CỨNG HDD – SSD – GHẾ ALPHA – GAMER – PHỤ KIỆN
                         </h1>
                     @else
-                        <p style="font-size: 14px;color: #fff;width: 340px;line-height: 2;">PC, WORKSTATION - CPU – BỘ VI XỬ LÝ – MAINBROAD – BO MẠCH CHỦ – VGA – CARD MÀN HÌNH – CASE – VỎ MÁY TÍNH – MONITOR – MÀN HÌNH – PSU
+                        <p style="font-size: 14px;color: #fff;width: 400px;line-height: 2;text-align: justify;">PC, WORKSTATION - CPU – BỘ VI XỬ LÝ – MAINBROAD – BO MẠCH CHỦ – VGA – CARD MÀN HÌNH – CASE – VỎ MÁY TÍNH – MONITOR – MÀN HÌNH – PSU
                             NGUỒN MÁY TÍNH – RAM Ổ CỨNG HDD – SSD – GHẾ ALPHA – GAMER – PHỤ KIỆN
                         </p>
                     @endif
