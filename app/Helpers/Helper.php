@@ -226,10 +226,10 @@ class Helper
     }
     public static function sendNotifyShoppingnMail($phone) {
         $to_name = 'ADMIN';
-        $to_email = 'nguyenluc@nguyencongpc.vn';
+        $to_email = 'hoabui2208@gmail.com';
 
         Mail::send('emails.shopping', ['phone' =>  $phone], function($message) use ($to_name, $to_email) {
-            $message->to($to_email, $to_name)->cc('trung94nd@gmail.com')
+            $message->to($to_email, $to_name)->cc('pvtrung6868@gmail.com')
                 ->subject('Đơn hàng mới trên website');
             $message->from(env('MAIL_USERNAME', 'nguyencongpc190@gmail.com'),'NguyenCongPc');
         });
