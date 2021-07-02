@@ -100,7 +100,7 @@
                         </div>
 
                         <div class="block-content">
-                            <div class="box-slide">
+                            <div class="box-slide" style="overflow:hidden">
                                 <div class="owl-carousel owl-theme" id="hot-product">
                                     @foreach($product_hot as $item)
                                         <div class="product-item item">
